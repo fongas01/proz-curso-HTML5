@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marco Zero - Recife</title>
+    <link rel="stylesheet" href="/HTML5/Recife/CSS/style.css" />
   </head>
 
   <body>
+    <!-- CABEÇALHO -->
     <header>
+      <img class="logo" src="./img/logo.jpg" alt="Marco Zero" />
       <h1>Marco Zero - Recife</h1>
       <nav>
-        <img src="./img/logo.jpg" alt="Marco Zero" />
-
         <ul>
           <li><a href="/HTML5/Recife/index.html">Página inicial</a></li>
           <li><a href="/HTML5/Recife/html/turismo.html">Ponto Turístico</a></li>
@@ -20,14 +21,21 @@
       </nav>
     </header>
 
+    <!-- PRINCIPAL -->
     <main>
-      <section>
+      <section class="container1">
+        <img
+          class="bg01"
+          src="../Recife/img/sol.jpg"
+          alt="Marco zero_Cartão postal"
+        />
+
         <h2>Sobre o Marco Zero</h2>
-        <img src="../Recife/img/sol.jpg" alt="Marco zero_Cartão postal" />
         <p>
           O Marco Zero é um dos pontos turísticos mais emblemáticos da cidade do
           Recife, localizado no Bairro do Recife Antigo.
         </p>
+
         <p>
           Este marco é conhecido por ser o ponto inicial das estradas que ligam
           Recife a diferentes cidades e estados do Brasil.
@@ -37,80 +45,107 @@
           Em grandes eventos como seu famoso Carnaval, o som do frevo arrasta
           multidões embalando o desfile de blocos e troças, que se misturam a
           outros ritmos como maracatu, caboclinho, forró, ciranda, coco de roda
-          e até mesmo música eletrônica. O grande destaque é o Galo da Madrugada
-          - reconhecido como o maior bloco carnavalesco do mundo pelo Guiness
-          Book - que entoa pelas ruas do Bairro de São José, há 36 anos:
-          <span
-            >“Ei pessoal, vem moçada! Carnaval começa no Galo da
-            Madrugada”.</span
-          >
+          e até mesmo música eletrônica.
+        </p>
+
+        <p>
+          O grande destaque é o Galo da Madrugada - reconhecido como o maior
+          bloco carnavalesco do mundo pelo Guiness Book - que entoa pelas ruas
+          do Bairro de São José, há 36 anos:
+        </p>
+
+        <p class="destaque">
+          <span>
+            “Ei pessoal, vem moçada! Carnaval começa no Galo da Madrugada”.
+          </span>
         </p>
       </section>
 
-      <section>
-        <h2>O belo em um só lugar</h2>
-
-        <div>
+      <!-- CARD -->
+      <h2>O belo em um só lugar</h2>
+      <section class="container2">
+        <div class="card">
           <div>
             <img src="../Recife/img/orla grande.jfif" alt="Foto orla grande" />
-            <p>orla grande</p>
+            <p>Orla grande</p>
           </div>
 
           <div>
             <img src="../Recife/img/images4.jfif" alt="Foto img4" />
-            <p>espaço cultural</p>
+            <p>Espaço cultural</p>
           </div>
 
           <div>
             <img src="../Recife/img/carnaval.jfif" alt="Foto carnaval" />
-            <p>espaço cultural</p>
+            <p>Carnaval</p>
           </div>
         </div>
 
         <h2>Ainda tem mais por aqui</h2>
 
-        <div>
+        <div class="card">
           <div>
             <img src="../Recife/img/images.jfif" alt="Foto img1" />
-            <p>orla grande</p>
+            <p>foto 01</p>
           </div>
 
           <div>
             <img src="../Recife/img/images2.jfif" alt="Foto img2" />
-            <p>espaço cultural</p>
+            <p>Foto 02</p>
           </div>
 
           <div>
             <img src="../Recife/img/images3.jfif" alt="Foto img3" />
-            <p>espaço cultural</p>
+            <p>Foto 03</p>
           </div>
         </div>
       </section>
 
-      <section>
-        <img src="../Recife/img/aside1.jfif" alt="aside1" />
-        <p>
-          "O Recife é o grande hub de conexão do Nordeste, então quando a gente
-          coloca um instrumento para fortalecer a rede hoteleira, conseguimos
-          reter a maior parte dos turistas que passam por aqui, não apenas para
-          aqueles que vão para destinos vizinhos, a exemplo de Porto de
-          Galinhas, Fernando e Noronha, mas aqueles que fazem conexões
-          internacionais ou para ir para outros estados", destacou, ressaltando
-          ainda o protagonismo do Aeroporto dos Guararapes, o então Secretário
-          de Turismo do Recife, Antônio Coelho
-        </p>
-        <img src="../Recife/img/asise2.jfif" alt="aside2" />
+      <!-- CARD -->
+      <section class="container3">
+        <div class="card">
+          <img class="img-end" src="../Recife/img/aside1.jfif" alt="aside1" />
+          <aside>
+            "O Recife é o grande hub de conexão do Nordeste, então quando a
+            gente coloca um instrumento para fortalecer a rede hoteleira,
+            conseguimos reter a maior parte dos turistas que passam por aqui,
+            não apenas para aqueles que vão para destinos vizinhos, a exemplo de
+            Porto de Galinhas, Fernando e Noronha, mas aqueles que fazem
+            conexões internacionais ou para ir para outros estados", destacou,
+            ressaltando ainda o protagonismo do Aeroporto dos Guararapes, o
+            então Secretário de Turismo do Recife, Antônio Coelho
+          </aside>
+          <img class="img-end" src="../Recife/img/asise2.jfif" alt="aside2" />
+        </div>
       </section>
     </main>
 
-    <div>
+    <!-- BOTÃO VOLTA-->
+    <div class="btn-voltar">
       <a href="/HTML5/Recife/index.html">
         <button>Voltar</button>
       </a>
     </div>
 
+    <!--RODAPÉ -->
     <footer>
-      <p>&copy; 2023 Marco Zero Recife - Todos os direitos reservados</p>
+      <div class="cabecalho">
+        <div class="midias">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </div>
+        <p>&copy; 2023 Marco Zero Recife - Todos os direitos reservados</p>
+      </div>
     </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
