@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Athiti:wght@200&display=swap');
+
+/* main */
+.card-main { 
+    background-image: url(/HTML5/Recife/img/recife.jpg);
+    /*background-repeat: no-repeat no-repeat;*/
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    margin-bottom: 10px;
+}
+
+#titulo-main{
+    padding: 35px;
+    font-family: Agbalumo;
+    font-size: 50px;
+    color:rgb(248, 197, 160);
+}
+
+.container1 p{
+    font-family:Athiti;
+    text-align: justify;
+    margin:0 30px 10px;
+}
+
+
+h2{
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.container2{
+    border: 5px solid rgb(239, 241, 241);
+    margin:30px 50px;
+    padding: 15px ;
+    border-radius: 50px;
+}
+
+.card2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.card2 img{
+    width: 600px;
+    height: 350px;
+}
+
+.container3{
+    padding: 10px 0 20px 30px;
+}
+
+.card3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.card3 div img{
+    width: 400px;
+    height: 250px;
+}
+
+main{
+    background-color: rgb(176, 252, 226);
+}
+
+.container4{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px;
+    padding-left: 30px;
+}
+
+.container4 img{
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.container4 img, aside{
+    width: 400px;
+    height: 250px;
+}
+
+aside{
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    font-family:Agbalumo ;
+    border: 1px solid rgb(172, 83, 20);
+}
